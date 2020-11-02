@@ -12,7 +12,7 @@ page,view,text,swiper,swiper-item,image,navigator {
 
 page {
     /* 定义主题颜色 */
-    --themeColor: cyan;
+    --themeColor: #ff2d4a;
     
     /* 定义统一字体大小
     

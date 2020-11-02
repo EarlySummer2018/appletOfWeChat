@@ -6,7 +6,7 @@
   "setting": {
     "urlCheck": true,
     "es6": true,
-    "enhance": false,
+    "enhance": true,
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
@@ -75,6 +75,60 @@
           "name": "商品详情",
           "pathName": "pages/goods_detail/index",
           "query": "goods_id=43986",
+          "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "pages/cart/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "支付页面",
+          "pathName": "pages/pay/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "授权",
+          "pathName": "pages/auth/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录首页",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "全部订单",
+          "pathName": "pages/order/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "收藏页面",
+          "pathName": "pages/collect/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索中心",
+          "pathName": "pages/search/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "意见反馈",
+          "pathName": "pages/feedback/index",
+          "query": "",
           "scene": null
         }
       ]

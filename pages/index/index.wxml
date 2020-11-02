@@ -7,7 +7,7 @@
   <view class="index_swiper">
     <swiper autoplay="{{true}}" indicator-dots="{{true}}" circular="{{true}}">
       <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
-        <navigator>
+        <navigator url="{{item.navigator_url}}">
           <image src="{{item.image_src}}" mode="widthFix"></image>
         </navigator>
       </swiper-item>
@@ -16,7 +16,7 @@
   <!-- 轮播图结束 -->
   <!-- 分类栏开始 -->
   <view class="index_cate">
-    <navigator wx:for="{{catesList}}" wx:key="name">
+    <navigator wx:for="{{catesList}}" wx:key="name" url="/pages/category/index" open-type="switchTab">
       <image mode="widthFix" src="{{item.image_src}}"></image>
     </navigator>
   </view>
@@ -42,7 +42,9 @@
         wx:for="{{item1.product_list}}"
         wx:for-item="item2"
         wx:for-index="index2"
-        wx:key="name">
+        wx:key="name"
+        url="{{item2.navigator_url}}"
+        >
           <image mode="{{index2===0?'widthFix':'scaleToFill'}}" src="{{item2.image_src}}"></image>
         </navigator>
       </view>
