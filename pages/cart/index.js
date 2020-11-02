@@ -11,6 +11,7 @@ Page({
 
   data: {
     address: {},
+    
     cart: [],
     allChecked: false,
     totalPrice: 0,
